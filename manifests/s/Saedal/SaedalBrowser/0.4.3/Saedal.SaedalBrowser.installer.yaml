@@ -1,0 +1,20 @@
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.9.0.schema.json
+
+PackageIdentifier: Saedal.SaedalBrowser
+PackageVersion: 0.4.3
+InstallerLocale: ko-KR
+InstallerType: nullsoft
+Scope: user
+InstallModes:
+- interactive
+- silent
+UpgradeBehavior: install
+ReleaseDate: 2026-09-29
+AppsAndFeaturesEntries:
+- DisplayName: Saedal Browser
+Installers:
+- Architecture: x64
+  InstallerUrl: https://saedal.com/browser/releases/Saedal%20Browser%20Setup%200.4.3.exe
+  InstallerSha256: 10791B26C277B67BB8AA75BF1D4A0A4A6A3C89EE954E3218BFD01D9651DF709A
+ManifestType: installer
+ManifestVersion: 1.9.0
